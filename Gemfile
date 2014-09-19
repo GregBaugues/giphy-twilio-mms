@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+ruby '2.1.2'
+gem 'rack'
+gem 'sinatra'
+gem 'twilio-ruby'
+gem 'sinatra-run-later', :require => 'sinatra/run-later'
+gem 'pry'
