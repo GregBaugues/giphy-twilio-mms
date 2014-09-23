@@ -6,7 +6,7 @@ require 'open-uri'
 module Giphy
 
   def giphy_api_key
-    "dc6zaTOxFJmzC"
+    ENV['GIPHY_API_KEY']
   end
 
   def giphy_search_url(query)
