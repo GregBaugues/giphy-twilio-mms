@@ -20,7 +20,7 @@ module Giphy
   end
 
   def gif_urls(data)
-    data['data'].collect { |g| g['images']['downsized']['url'] }
+    data['data'].collect { |gif| gif['images']['downsized']['url'] }
   end
 
   def random_gif_url(query)
