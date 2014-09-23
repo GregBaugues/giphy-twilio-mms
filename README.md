@@ -1,8 +1,10 @@
 # Animated GIFS via MMS
 
-Custom animated GIFs delivered to your phone via the Giphy API and Twilio MMS. *Text a search phrase to (202) 800-1334 to try it out.*
+Custom animated GIFs delivered to your phone via the [Giphy API](https://github.com/giphy/GiphyAPI) and [Twilio MMS](http://twilio.com/mms). 
 
-This service is built in Ruby on Sinatra. To run this locally, [sign up for a Twilio account](http://www.twilio.com) and purchase an MMS enabled number for $1. On the [Giphy API](https://github.com/giphy/GiphyAPI) side, you can build an app using the public beta key, but you'll want to get an individual API key from the Giphy team before scaling to production. 
+### Text a search phrase to (202) 800-1334 to try it out.
+
+This service is built in Ruby on Sinatra. To run this locally, [sign up for a Twilio account](http://www.twilio.com) and purchase an MMS enabled number for $1. On the [Giphy API]() side, you can build an app using the public beta key, but you'll want to get an individual API key from the Giphy team before scaling to production. 
 
 Then... 
 
@@ -29,12 +31,8 @@ ruby twilio.rb
 ./ngrok -subdomain=example 4567
 ```
 
-6. Click on your shiny new phone number in your Twilio dashboard and set the messaging webhook to: 
+6. Click on your shiny new phone number in your Twilio dashboard and set the messaging webhook to ```http://example.ngrok.com/sms```
 
-```
-http://example.ngrok.com/sms
-```
-
-You should be good to go. Ping me if you have questions at [gb@twilio.com](mailto:gb@twilio.com) or [@greggyb](http://twitter.com/greggyb). 
+And then send a text message to your Twilio number to get your response. Ping me if you have questions at [gb@twilio.com](mailto:gb@twilio.com) or [@greggyb](http://twitter.com/greggyb). 
 
 ![](public/draw-the-owl-mms.png)
