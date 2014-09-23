@@ -6,8 +6,8 @@ On the Twilio side, you'll need to sign up for a Twilio account and purchase an 
 Clone this repo. Run ```bundle install``` to install the gems. Then, from a terminal set the following environment variables: 
 
 ```
-export TWILIO_ACCOUNT_SID=youraccountsidhere
-export TWILIO_AUTH_TOKEN=yourauthtokenhere
+export ACCOUNT_SID=youraccountsidhere
+export AUTH_TOKEN=yourauthtokenhere
 export TWILIO_PHONE_NUMBER=+13128675309
 export GIPHY_API_KEY=yourgiphyapikey
 ```
