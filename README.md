@@ -35,4 +35,4 @@ ruby twilio.rb
 
 And then send a text message to your Twilio number to get your response. Ping me if you have questions at [gb@twilio.com](mailto:gb@twilio.com) or [@greggyb](http://twitter.com/greggyb). 
 
-![](public/draw-the-owl-mms.png)
+![](draw-the-owl-mms.png)
